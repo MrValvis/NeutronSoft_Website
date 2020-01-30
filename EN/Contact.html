@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Corporation Name-Contact us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="../MainConfig/MAINCSS.css">
+  <script language="javascript" src="../MainConfig/Copyrights.js"></script>
+  <script type="text/javascript" src="../JS/CL.js"></script>  
+  <script type="text/javascript" src="../JS/CP.js"></script>  
+    
+</head>
+
+<body onload="CPR();">
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavbarMenuBurger"> 
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="../img/ENSOBrand.gif"></a>
+				
+			</div>
+			<div class="collapse navbar-collapse" id="NavbarMenuBurger">
+				<ul class="nav navbar-nav navbar-right">
+					<li >				<a onclick="CPH();">Home</a></li>
+					<li >				<a onclick="CPA();">About Us</a></li>
+					<li > 				<a onclick="CPS();">Services</a></li>
+					<li class="active"> <a onclick="CPC();">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	
+	
+	<div class="container text-center">
+		<h2>Always beside you!</h2>
+	</div>	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h4>Contact Us</h4>
+					<p>Contact us to get access to more! Please, let us know what you are interested in and how to contact you! We are here to help.</p>
+					<br>
+					<table>
+					
+					<tr>
+					<th><label class="TextFields" id="NameTxt">Name *</label></th>
+					<th ><input type="text" ></th>
+					</tr>
+					
+					<tr>
+					<th><label class="TextFields" id="EmailTxt">Email *</label></th>
+					<th><input type="text" ></th>
+					</tr>
+					
+					<tr>
+					<th><label class="TextFields" id="PhoneTxt">Phone </label></th>
+					<th><input type="text" ></th>
+					</tr>
+					
+					
+					<tr>
+					<th><label class="TextFields" id="CompanyTxt">Company</label></th>
+					<th><input type="text" ></th>
+					</tr>
+					
+					
+					<tr>
+					<th colspan=2><textarea name="input_6" id="CommentsTxt" class="textarea small" tabindex="6" aria-invalid="false" rows="10" cols="50" style="overflow:auto;resize:none"></textarea></th>
+					</tr>
+					
+					<tr>
+					<th align="center"><input type="submit"></th>
+					</tr>
+					</table>
+					
+					
+				</div>
+					<div class="col-md-6">
+						<style>
+						#map {width: 100%;height: 400px;background-color: grey;}
+						@media (max-width:900px){.fa{font-size:20px;padding:10px;}}
+						@media (max-width:600px){.carousel-caption{display-none;}
+						#icon{max-width:150px;}h2{font:1.7em;}}
+						</style>
+						<h3>Our Location</h3>
+						<!--The div element for the map -->
+						<div id="map"></div>
+						<script>
+						// Initialize and add the map
+						function initMap(){
+						// The location of Uluru
+						var uluru = {lat: 38.008338, lng: 23.736537};
+						// The map, centered at Uluru
+						var map = new google.maps.Map(
+						document.getElementById('map'), {zoom: 14, center: uluru});
+						// The marker, positioned at Uluru
+						var marker = new google.maps.Marker({position: uluru, map: map});
+						}
+						</script>
+						<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAVXq69SIJzdHk6wgy3iLH5TiJlkdz6EY&callback=initMap"></script>
+					</div>
+			</div>	
+		</div>
+	
+		
+		<footer class="container-fluid text-center">
+		<div class="row">
+			<div class="col-sm-4">
+			<h3> Contact us </h3>
+			<li class="LangSelect"><h4> NeutronSoft@info.com</h4></li>
+			<li class="LangSelect"><h4> 210-1223344</h4></li>
+			<li class="LangSelect"><h4> Charokopou 86, Kallithea</h4></li>
+			</div>
+			
+			<div class="col-sm-4">
+			<h3> Stay connected </h3>
+			<br>
+			<a href="https://www.facebook.com/philipvalvis" class="fa fa-facebook"> </a>
+			<a href="https://linkedin.com/in/philip-valvis-4bb249156/" class="fa fa-linkedin"> </a>
+			</div>
+			
+			
+			<!-- copyright -->
+			<div class="col-sm-4">
+				<h3>Languages</h3>
+				<br>
+				<li class="LangSelect" onclick="CLG();"><h4> Greek-Ελ</h4> </li>
+				<li class="LangSelect" onclick="CLE();"><h4> English-En</h4> </li>
+			<br>		
+			</div>
+			
+			
+			<h4 id="CDT">
+		</footer>
+	
+
+</body>
+</html>
