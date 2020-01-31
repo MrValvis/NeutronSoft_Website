@@ -16,6 +16,8 @@
 		margin-bottom:10px;
 	}
 	
+	.navbar-brand img{background-color: #cccccc;;}
+	
 	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, navbar-inverse .navbar-nav .active a:hover{
 		color:#99ddff;
 		background-color: transparent;
@@ -28,7 +30,7 @@
 	
 	#NavbarMenuBurger{margin-top:10px;}
 /*#EndRegion  Menu-navbar*/
-	
+
 /*#Region  Main conteiner*/
 
 /*#Region carousel*/
@@ -79,7 +81,14 @@
 		max-width:200px;
 		margin:1%;
 	}	
-}
+
+
+.container p {white-space: pre-line;font-size:18px;; font-family: "Times New Roman", Times, serif;}
+
+/*#Region  Table*/
+.blank_row{height: 10px ;}
+.TextFields {margin:8px;padding:2px;}
+/*#EndRegion  Table*/
 
 /*#EndRegion  MainContainer*/
 
@@ -107,6 +116,20 @@
 	}
 /*#EndRegion  Map*/
 
+
+#PhoneNumber,input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+margin: 0;}
+#PhoneNumber,input[type=number] {
+  -moz-appearance:textfield;
+}
+
+
+#SubmitButton{
+	display: block;
+	margin: auto;
+	}
+	
 	
 /*#Region  Footer*/
 footer{

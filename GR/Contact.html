@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="el">
 <head>
-  <title>NeutronSoft- Επικοινωνία</title>
+  <title>NeutronSoft - Επικοινωνία</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -12,12 +12,10 @@
   
   <link rel="stylesheet" type="text/css" href="../MainConfig/MAINCSS.css">
   <script language="javascript" src="../MainConfig/Copyrights.js"></script>
-  
   <script type="text/javascript" src="../JS/CL.js"></script>  
   <script type="text/javascript" src="../JS/CP.js"></script>  
   
 </head>
-
 
 <body onload="CPR();">
 	<nav class="navbar navbar-inverse">
@@ -36,63 +34,55 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li>				<a onclick="CPH();">Αρχική</a></li>
 					<li>				<a onclick="CPA();">Σχετικά με εμάς</a></li>
-					<li>				<a onclick="CPS();">Υπηρεσίες</a></li>
+					<li>				<a onclick="CPS();">Project's</a></li>
 					<li class="active"> <a onclick="CPC();">Επικοινωνία</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	
-	
 	<div class="container text-center">
-		<h2>Πάντα δίπλα σας! </h2>
 	</div>	
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<h4>Επικοινωνίστε μαζί μας</h4>
-					<p>Επικοινωνίστε μαζί μας για περισσότερες πληροφορέις! Ενημερώστε μας σχετικά με το τι σας ενδιαφέρει και πώς να επικοινωνήσετε μαζί σας! 
-					<BR>Είμαστε εδώ για εσάς!</p>
+					<h3>Επικοινωνίστε μαζί μας</h3>
+					<p>Ενημερώστε μας σχετικά με το τι σας ενδιαφέρει και πως μπορούμε να επικοινωνήσουμε μαζί σας! </p>
 					<br>
+					<tr class="blank_row"><td colspan="3"></td></tr>
+					
 					<table>
-					
-					<tr>
-					<th><label class="TextFields" id="NameTxt">Όνομα *</label></th>
-					<th ><input type="text" ></th>
+					<tr class="TextFields";>
+						<th><label class="TextFields" id="NameTxt">* Όνομα :</label></th>
+						<th ><input type="text" ></th>
 					</tr>
 					
-					<tr>
-					<th><label class="TextFields" id="EmailTxt">Email *</label></th>
-					<th><input type="text" ></th>
+					<tr class="blank_row"><td colspan="3"></td></tr>
+					<tr class="TextFields">
+						<th><label class="TextFields" id="EmailTxt">* Email :</label></th>
+						<th><input type="text" ></th>
 					</tr>
 					
-					<tr>
-					<th><label class="TextFields" id="PhoneTxt">Τηλέφωνο </label></th>
-					<th><input type="text" ></th>
+					<tr class="blank_row"><td colspan="3"></td></tr>
+					<tr class="TextFields">
+						<th><label class="TextFields" id="PhoneTxt">Τηλέφωνο : </label></th>
+						<th id="PhoneNumber"><input type="number"></th>
 					</tr>
 					
-					
+					<tr class="blank_row"><td colspan="3"></td></tr>
 					<tr>
-					<th><label class="TextFields" id="CompanyTxt">Εταιρία</label></th>
-					<th><input type="text" ></th>
+						<th colspan=2><textarea name="input_6" placeholder="Πληκτρολογίστε το μήνυμα σας εδώ!" id="CommentsTxt" class="textarea small" tabindex="6" aria-invalid="false" rows="10" cols="50" style="overflow:auto;resize:none"></textarea></th>
 					</tr>
 					
-					<tr>
-					<th colspan=2><textarea name="input_6" id="CommentsTxt" class="textarea small" tabindex="6" aria-invalid="false" rows="10" cols="50" style="overflow:auto;resize:none"></textarea></th>
+					<tr class="blank_row"><td colspan="3"></td></tr>
+					<tr >
+						<th colspan="2"><input type="submit" value="Ολοκλήρωση και αποστολή" id="SubmitButton"></th>
 					</tr>
 					
-					<tr>
-					<th align="center"><input type="submit"></th>
-					</tr>
 					</table>
 				</div>
 					<div class="col-md-6">
-						<style>
-						#map {width: 100%;height: 400px;background-color: grey;}
-						@media (max-width:900px){.fa{font-size:20px;padding:10px;}}
-						@media (max-width:600px){.carousel-caption{display-none;}
-						#icon{max-width:150px;}h2{font:1.7em;}}
-						</style>
+
 						<h3>Η τοποθεσία μας</h3>
 						<!--The div element for the map -->
 						<div id="map"></div>
@@ -100,7 +90,7 @@
 						// Initialize and add the map
 						function initMap(){
 						// The location of Uluru
-						var uluru = {lat: 38.008338, lng: 23.736537};
+						var uluru = {lat: 37.959943, lng: 23.708006};
 						// The map, centered at Uluru
 						var map = new google.maps.Map(
 						document.getElementById('map'), {zoom: 14, center: uluru});
@@ -140,10 +130,8 @@
 			<br>		
 			</div>
 			
-			
 			<h4 id="CDT">
 		</footer>
 	
-
 </body>
 </html>
