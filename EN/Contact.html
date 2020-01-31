@@ -34,7 +34,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li >				<a onclick="CPH();">Home</a></li>
 					<li >				<a onclick="CPA();">About Us</a></li>
-					<li > 				<a onclick="CPS();">Services</a></li>
+					<li > 				<a onclick="CPS();">Project's</a></li>
 					<li class="active"> <a onclick="CPC();">Contact</a></li>
 				</ul>
 			</div>
@@ -49,41 +49,41 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
+					
 					<h4>Contact Us</h4>
-					<p>Contact us to get access to more! Please, let us know what you are interested in and how to contact you! We are here to help.</p>
+					<div class="LongText">Please, let us know what you are interested in and how to contact you!
+We would love to hear from you!</div>
 					<br>
-					<table>
+					<table id="Contact_Fields">
+					<tr class="TextFields";>
+						<th><label class="TextFields" id="NameTxt">Name *</label></th>
+						<th ><input type="text" ></th>
+					</tr>
+					
+					<tr class="blank_row"><td colspan="3"></td></tr>
+					
+					<tr class="TextFields">
+						<th><label class="TextFields" id="EmailTxt">Email *</label></th>
+						<th><input type="text" ></th>
+					</tr>
+					
+					<tr class="blank_row"><td colspan="3"></td></tr>
 					
 					<tr>
-					<th><label class="TextFields" id="NameTxt">Name *</label></th>
-					<th ><input type="text" ></th>
+						<th colspan=2><textarea name="input_6" id="CommentsTxt" class="textarea small" tabindex="6" aria-invalid="false" rows="10" cols="50" style="overflow:auto;resize:none"></textarea></th>
 					</tr>
 					
 					<tr>
-					<th><label class="TextFields" id="EmailTxt">Email *</label></th>
-					<th><input type="text" ></th>
-					</tr>
-					
-					<tr>
-					<th><label class="TextFields" id="PhoneTxt">Phone </label></th>
-					<th><input type="text" ></th>
-					</tr>
-					
-					
-					<tr>
-					<th><label class="TextFields" id="CompanyTxt">Company</label></th>
-					<th><input type="text" ></th>
-					</tr>
-					
-					
-					<tr>
-					<th colspan=2><textarea name="input_6" id="CommentsTxt" class="textarea small" tabindex="6" aria-invalid="false" rows="10" cols="50" style="overflow:auto;resize:none"></textarea></th>
-					</tr>
-					
-					<tr>
-					<th align="center"><input type="submit"></th>
+						<th align="center"><input type="submit"></th>
 					</tr>
 					</table>
+					
+					<style>
+					.LongText{white-space: pre;}
+					.blank_row{height: 10px ;}
+					.TextFields {background-color:skyblue; margin:8px;padding:2px;}
+					#Contact_Fields{position-left:20px !important;}
+					</style>
 					
 					
 				</div>
