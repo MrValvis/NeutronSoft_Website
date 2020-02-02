@@ -17,6 +17,7 @@
 		
 		else{
 			//var Debug=window.location.href.indexOf("");
+			
 			alert ("Η σελίδα έχει ήδη μεταφραστεί");
 		}
 }
@@ -40,9 +41,8 @@ function CLE() {
 	//Contact us page
 		else if (window.location.href.indexOf("GR/Contact.html") > -1)
 			{window.location.replace("../EN/Contact.html");}
-		
-		else
-		{
+			
+		else{
 			//var Debug=window.location.href.indexOf("");
 			alert ("the page has already been translated");}
 }

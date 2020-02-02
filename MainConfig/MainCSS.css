@@ -128,7 +128,9 @@ margin: 0;}
 #SubmitButton{
 	display: block;
 	margin: auto;
+	opacity: 0.75;
 	}
+#SubmitButton:hover{opacity: 1; background-color:rgba(0.255.120.1); }
 	
 	
 /*#Region  Footer*/

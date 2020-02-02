@@ -44,9 +44,9 @@ function CPS() {
 
 function CPC() {
 		if (window.location.href.indexOf("/GR/") > -1)
-			{window.location.replace("../GR/contact.html");}
+			{window.location.replace("../GR/Contact.html");}
 		else if( window.location.href.indexOf("/EN/") > -1)
-			{window.location.replace("../EN/contact.html");}
+			{window.location.replace("../EN/Contact.html");}
 		else
 			{window.location.replace("./EN/Contact.html");}
 
@@ -55,7 +55,7 @@ function CPC() {
 function CU(){
 
 		if (window.location.href.indexOf("/GR/") > -1)
-			{window.location.replace("../GR/contact.html");}
+			{window.location.replace("../GR/Contact.html");}
 		else
 			{window.location.replace("./EN/Contact.html");}
 }
