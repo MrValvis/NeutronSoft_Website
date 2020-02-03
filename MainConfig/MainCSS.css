@@ -130,7 +130,7 @@ margin: 0;}
 	margin: auto;
 	opacity: 0.75;
 	}
-#SubmitButton:hover{opacity: 1; background-color:rgba(0.255.120.1); }
+#SubmitButton:hover{opacity: 1; }
 	
 	
 /*#Region  Footer*/
@@ -146,14 +146,16 @@ footer{
 footer h3{list-style-type: none; cursor:default;}
 footer li{font-size:15;font-family:Arial;}
 	/*#Region  ChangeLanguage*/
-	.LangSelect{
+	.ContactInfo , .LangSelect{
+	cursor:default;
 	list-style-type: none;
 	opacity: 0.7;
 }
 
 	.LangSelect:hover{
-	opacity: 1;
 	cursor:pointer;
+	opacity: 1;
+	color:#2dc3e0;
 }
 	/*#EndRegion  ChangeLanguage*/
 	
@@ -165,7 +167,7 @@ footer li{font-size:15;font-family:Arial;}
 	}
 	.fa:hover{
 	
-		color:#D5D5D5;
+		color:#2dc3e0;
 		text-decoration:none;
 		transform: scale(1.2); 
 	}
@@ -179,7 +181,6 @@ footer li{font-size:15;font-family:Arial;}
 		color:#FFF;
         font-size: 1em;
         text-align: center;
-		
 		}
 /*#EndRegion Footer*/
 	
