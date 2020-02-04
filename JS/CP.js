@@ -35,7 +35,7 @@ function CPA() {
 
 function CPS() {
 		if (window.location.href.indexOf("/GR/") > -1)
-			{window.location.replace("../GR/services.html");}
+			{window.location.replace("../GR/Services.html");}
 		else if( window.location.href.indexOf("/EN/") > -1)
 			{window.location.replace("../EN/Services.html");}
 		else
