@@ -1,9 +1,9 @@
 ﻿/*
 function CPH() {
-		if (window.location.href.indexOf("/gr/") > -1)
-			{window.location.replace("./indexgr.html");}
+		if (window.location.href.indexOf("/GR/") > -1)
+			{window.location.replace("./indexGR.html");}
 		
-		else if( window.location.href.indexOf("/en/") > -1)
+		else if( window.location.href.indexOf("/EN/") > -1)
 			{window.location.replace("./index.html");}
 		
 		else
@@ -12,9 +12,9 @@ function CPH() {
 }*/
 
 function CPH() {
-		if (window.location.href.indexOf("/gr/") > -1)
-			{window.location.replace("./indexgr.html");}
-		else if( window.location.href.indexOf("/en/") > -1)
+		if (window.location.href.indexOf("/GR/") > -1)
+			{window.location.replace("./indexGR.html");}
+		else if( window.location.href.indexOf("/EN/") > -1)
 			{window.location.replace("../index.html");}
 		else
 			{window.location.replace("./index.html");}
@@ -23,39 +23,39 @@ function CPH() {
 
 
 function CPA() {
-		if (window.location.href.indexOf("/gr/") > -1)
-			{window.location.replace("../gr/aboutus.html");}
-		else if( window.location.href.indexOf("/en/") > -1)
-			{window.location.replace("../en/aboutus.html");}
+		if (window.location.href.indexOf("/GR/") > -1)
+			{window.location.replace("../GR/AboutUs.html");}
+		else if( window.location.href.indexOf("/EN/") > -1)
+			{window.location.replace("../EN/AboutUs.html");}
 		else
-			{window.location.replace("./en/aboutus.html");}
+			{window.location.replace("./EN/AboutUs.html");}
 		
 
 }
 
 function CPS() {
-		if (window.location.href.indexOf("/gr/") > -1)
-			{window.location.replace("../gr/services.html");}
-		else if( window.location.href.indexOf("/en/") > -1)
-			{window.location.replace("../en/services.html");}
+		if (window.location.href.indexOf("/GR/") > -1)
+			{window.location.replace("../GR/services.html");}
+		else if( window.location.href.indexOf("/EN/") > -1)
+			{window.location.replace("../EN/Services.html");}
 		else
-			{window.location.replace("./en/services.html");}
+			{window.location.replace("./EN/Services.html");}
 }
 
 function CPC() {
-		if (window.location.href.indexOf("/gr/") > -1)
-			{window.location.replace("../gr/contact.html");}
-		else if( window.location.href.indexOf("/en/") > -1)
-			{window.location.replace("../en/contact.html");}
+		if (window.location.href.indexOf("/GR/") > -1)
+			{window.location.replace("../GR/Contact.html");}
+		else if( window.location.href.indexOf("/EN/") > -1)
+			{window.location.replace("../EN/Contact.html");}
 		else
-			{window.location.replace("./en/contact.html");}
+			{window.location.replace("./EN/Contact.html");}
 
 }
 
 function CU(){
 
-		if (window.location.href.indexOf("/gr/") > -1)
-			{window.location.replace("../gr/Contact.html");}
+		if (window.location.href.indexOf("/GR/") > -1)
+			{window.location.replace("../GR/Contact.html");}
 		else
-			{window.location.replace("./en/contact.html");}
+			{window.location.replace("./EN/Contact.html");}
 }
