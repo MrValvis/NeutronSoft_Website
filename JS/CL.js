@@ -1,19 +1,19 @@
 ﻿function CLG() {
 	// for index page
 		if (window.location.href.indexOf("index.html") > -1)
-			{window.location.replace("./GR/indexGR.html");}
+			{window.location.replace("./gr/indexgr.html");}
 	
 	//About us page
-		else if (window.location.href.indexOf("EN/AboutUs.html") > -1)
-			{window.location.replace("../GR/AboutUs.html");}
+		else if (window.location.href.indexOf("en/aboutus.html") > -1)
+			{window.location.replace("../gr/aboutus.html");}
 
 	//Services page
-		else if (window.location.href.indexOf("EN/Services.html") > -1)
-			{window.location.replace("../GR/Services.html");}
+		else if (window.location.href.indexOf("en/services.html") > -1)
+			{window.location.replace("../gr/services.html");}
 		
 	//Contact us page
-		else if (window.location.href.indexOf("EN/Contact.html") > -1)
-			{window.location.replace("../GR/Contact.html");}
+		else if (window.location.href.indexOf("en/contact.html") > -1)
+			{window.location.replace("../gr/contact.html");}
 		
 		else{
 			//var Debug=window.location.href.indexOf("");
@@ -24,23 +24,22 @@
 
 
 
-
 function CLE() {
 	// for index page
-		if (window.location.href.indexOf("GR/indexGR.html") > -1)
+		if (window.location.href.indexOf("gr/indexgr.html") > -1)
 			{window.location.replace("../index.html");}
 	
 	//About us page
-		else if (window.location.href.indexOf("GR/AboutUs.html") > -1)
-			{window.location.replace("../EN/AboutUs.html");}
+		else if (window.location.href.indexOf("gr/aboutus.html") > -1)
+			{window.location.replace("../en/aboutus.html");}
 
 	//Services page
-		else if (window.location.href.indexOf("GR/Services.html") > -1)
-			{window.location.replace("../EN/Services.html");}
+		else if (window.location.href.indexOf("gr/services.html") > -1)
+			{window.location.replace("../en/services.html");}
 		
 	//Contact us page
-		else if (window.location.href.indexOf("GR/Contact.html") > -1)
-			{window.location.replace("../EN/Contact.html");}
+		else if (window.location.href.indexOf("gr/contact.html") > -1)
+			{window.location.replace("../en/contact.html");}
 			
 		else{
 			//var Debug=window.location.href.indexOf("");
