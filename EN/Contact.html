@@ -4,7 +4,6 @@
   <title>NeutronSoft - Contact us</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -54,27 +53,28 @@ We would love to hear from you!</p>
 					<br>
 					<tr class="blank_row"><td colspan="3"></td></tr>
 					
+					<form action="Neutronsoft/MailToAdmin.php" method="POST">
 					<table>
 					<tr class="TextFields";>
-						<th><label class="TextFields" id="NameTxt">* Name :</label></th>
+						<th><label class="TextFields" name="name">* Name :</label></th>
 						<th ><input type="text" ></th>
 					</tr>
 					
 					<tr class="blank_row"><td colspan="3"></td></tr>
 					<tr class="TextFields">
-						<th><label class="TextFields" id="EmailTxt">* Email :</label></th>
+						<th><label class="TextFields" name="email">* Email :</label></th>
 						<th><input type="text" ></th>
 					</tr>
 					
 					<tr class="blank_row"><td colspan="3"></td></tr>
 					<tr class="TextFields">
-						<th><label class="TextFields" id="PhoneTxt">Phone :</label></th>
+						<th><label class="TextFields" name="PhoneTxt">Phone :</label></th>
 						<th id="PhoneNumber"><input type="number"></th>
 					</tr>
 					
 					<tr class="blank_row"><td colspan="3"></td></tr>
 					<tr>
-						<th colspan=2><textarea name="input_6" placeholder="Type your message here!" id="CommentsTxt" class="textarea small" tabindex="6" aria-invalid="false" rows="10" cols="50" style="overflow:auto;resize:none"></textarea></th>
+						<th colspan=2><textarea name="message" placeholder="Type your message here!" id="CommentsTxt" class="textarea small" tabindex="6" aria-invalid="false" rows="10" cols="50" style="overflow:auto;resize:none"></textarea></th>
 					</tr>
 					
 					<tr class="blank_row"><td colspan="3"></td></tr>

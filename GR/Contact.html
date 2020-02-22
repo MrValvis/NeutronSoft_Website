@@ -51,27 +51,28 @@
 					<br>
 					<tr class="blank_row"><td colspan="3"></td></tr>
 					
+					<form action="Neutronsoft/MailToAdmin.php" method="POST">
 					<table>
 					<tr class="TextFields";>
-						<th><label class="TextFields" id="NameTxt">* Όνομα :</label></th>
+						<th><label class="TextFields" name="name">* Όνομα :</label></th>
 						<th ><input type="text" ></th>
 					</tr>
 					
 					<tr class="blank_row"><td colspan="3"></td></tr>
 					<tr class="TextFields">
-						<th><label class="TextFields" id="EmailTxt">* Email :</label></th>
+						<th><label class="TextFields" name="email">* Email :</label></th>
 						<th><input type="text" ></th>
 					</tr>
 					
 					<tr class="blank_row"><td colspan="3"></td></tr>
 					<tr class="TextFields">
-						<th><label class="TextFields" id="PhoneTxt">Τηλέφωνο : </label></th>
+						<th><label class="TextFields" name="PhoneTxt">Τηλέφωνο : </label></th>
 						<th id="PhoneNumber"><input type="number"></th>
 					</tr>
 					
 					<tr class="blank_row"><td colspan="3"></td></tr>
 					<tr>
-						<th colspan=2><textarea name="input_6" placeholder="Πληκτρολογίστε το μήνυμα σας εδώ!" id="CommentsTxt" class="textarea small" tabindex="6" aria-invalid="false" rows="10" cols="50" style="overflow:auto;resize:none"></textarea></th>
+						<th colspan=2><textarea name="message" placeholder="Πληκτρολογίστε το μήνυμα σας εδώ!" class="textarea small" tabindex="6" aria-invalid="false" rows="10" cols="50" style="overflow:auto;resize:none"></textarea></th>
 					</tr>
 					
 					<tr class="blank_row"><td colspan="3"></td></tr>
@@ -80,6 +81,8 @@
 					</tr>
 					
 					</table>
+					</form>
+					
 				</div>
 					<div class="col-md-6">
 
