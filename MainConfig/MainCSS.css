@@ -2,21 +2,23 @@
 .navbar{
 		margin-bottom:0;
 		border-radius:0;
-		background-color:#00000;
+		background-color:#1a293c;
 		color:#99ffcc;
 		padding:1%;
 		font-size:1.2em;
 		border:0;
+		box-shadow: 0px 4px 7px -1px rgba(138,138,138,1);
 	}
   
 	.navbar-brand{
+		
 		float:left;
 		min-heigt:50px;
 		padding:0 10px ;
 		margin-bottom:10px;
 	}
 	
-	.navbar-brand img{background-color: #cccccc;;}
+	.navbar-brand img{background-color: #cccccc;}
 	
 	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, navbar-inverse .navbar-nav .active a:hover{
 		color:#99ddff;
@@ -34,8 +36,12 @@
 /*#Region  Main conteiner*/
 
 /*#Region carousel*/
-#ImageCarousel{background-color:white;}
-#GrowEfficiency{cursor:default;font-style:bold;}
+#ImageCarousel{
+	background-color:white;
+	box-shadow: 0px 4px 7px -1px rgba(138,138,138,1);}
+#GrowEfficiency{
+	cursor:default;
+	font-style:bold;}
 .carousel-caption{
 	top:50%;
 	transform:translateY(-50%);
@@ -77,11 +83,15 @@
 		margin:4% auto;
 	}
 
-.icons{
+.icons{	
 		max-width:200px;
 		margin:1%;
 	}	
 
+img{
+	border-radius: 1%;
+    object-fit: cover;
+    box-shadow: 0px 4px 7px -1px rgba(138, 138, 138, 1);}
 
 .container p {white-space: pre-line;font-size:18px;; font-family: "Times New Roman", Times, serif;}
 
